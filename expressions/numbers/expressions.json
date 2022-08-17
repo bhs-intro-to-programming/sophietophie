@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Ten",
+    "answer": "5+5",
+    "correct": true
+  },
+  {
+    "name": "Two plus two",
+    "answer": "3+1",
+    "correct": true
+  },
+  {
+    "name": "1337 times 32",
+    "answer": "1336+32",
+    "correct": false
+  },
+  {
+    "name": "1337 times 32",
+    "answer": "1336+33",
+    "correct": false
+  },
+  {
+    "name": "1337 times 32",
+    "answer": "1336+31",
+    "correct": false
+  },
+  {
+    "name": "1337 times 32",
+    "answer": "1368+1",
+    "correct": false
+  },
+  {
+    "name": "1337 times 32",
+    "answer": "42684+100",
+    "correct": true
+  },
+  {
+    "name": "A million",
+    "answer": "50000+50000",
+    "correct": false
+  },
+  {
+    "name": "A million",
+    "answer": "500000+500000",
+    "correct": true
+  },
+  {
+    "name": "Sally's apples",
+    "answer": "6-4",
+    "correct": true
+  },
+  {
+    "name": "Sally's even more apples",
+    "answer": "6432-4000",
+    "correct": true
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "3.14 * 4",
+    "correct": false
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "3.14159",
+    "correct": false
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "3.141592653",
+    "correct": false
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "3.1415926535897",
+    "correct": false
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "3.141592653589793*4",
+    "correct": true
+  },
+  {
+    "name": "Seconds in a day",
+    "answer": "86300+100",
+    "correct": true
+  },
+  {
+    "name": "Minutes in a year",
+    "answer": "525599+1",
+    "correct": true
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3155",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3155695",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3155695100+100",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "31556",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3155695",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3155695199+1",
+    "correct": false
+  },
+  {
+    "name": "Seconds in a century",
+    "answer": "3153500000+100000",
+    "correct": true
+  }
+]
