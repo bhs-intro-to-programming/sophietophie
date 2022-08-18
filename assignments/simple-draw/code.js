@@ -39,7 +39,7 @@ drawLine(0, 0, width, height, 'orange')
 
 drawCircle(width/2, height/2, 10, 'green');
 
-drawRect(50, 50, 60, 40, 'black');
+drawRect(100, 20, 60, 40, 'black');
 
 drawFilledCircle(width - 50, height - 50, 50, 'red');
 
