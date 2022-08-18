@@ -47,5 +47,5 @@ drawFilledRect(5, height - 20, 45, 15, 'green');
 
 drawRect(100, 500, 333, 245, 'green')
 
-drawLine(100, 50, width, height, 'green')
+drawLine(100, 50, width, height, 'purple')
 
