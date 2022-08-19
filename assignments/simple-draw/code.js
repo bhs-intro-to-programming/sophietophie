@@ -39,4 +39,4 @@
 
 
 
-drawLine(200, 100, 500, 400, 'purple')
+drawLine(200, 100, 400, 300, 'purple')
