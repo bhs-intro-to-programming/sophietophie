@@ -41,4 +41,4 @@
 
 drawLine(200, 100, 300, 250, 'purple')
 drawLine(400, 300, 300, 250, 'purple')
-drawLine(300, 700, 300, 250, 'purple')
+drawLine(250, 700, 300, 250, 'purple')
