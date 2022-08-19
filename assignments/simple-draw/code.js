@@ -39,5 +39,5 @@
 
 
 
-drawLine(200, 100, 300, 250, 'purple')
+drawLine(200, 100, 400, 250, 'purple')
 drawLine(400, 300, 300, 250, 'purple')
