@@ -37,16 +37,6 @@
 
 
 
-drawCircle(width/2, height/2, 10, 'orange');
 
-drawRect(10, 10, 60, 40, 'purple');
-
-drawFilledCircle(width - 6, height - 10, 50, 'purple');
-
-drawFilledRect(5, height - 20, 45, 15, 'green');
-
-drawRect(100, 500, 333, 245, 'green')
-
-drawLine(200, 20, width, height, 'purple')
 
 drawLine(200, 100, 500, 400, 'purple')
