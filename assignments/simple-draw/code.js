@@ -49,6 +49,6 @@ drawRect(100, 500, 333, 245, 'green')
 
 drawLine(200, 20, width, height, 'purple')
 
-drawLine(20, 60, width, height, 'orange')
+drawLine(20, 60, 40, 50, 'orange')
 
-drawLine(40,80, width, height, 'orange')
+drawCircle
