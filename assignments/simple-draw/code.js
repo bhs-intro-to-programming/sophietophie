@@ -51,3 +51,4 @@ drawLine(200, 20, width, height, 'purple')
 
 drawLine(20, 60, width, height, 'orange')
 
+drawLine(40,80, width, height, 'orange')
