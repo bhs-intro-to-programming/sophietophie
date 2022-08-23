@@ -28,5 +28,10 @@
     "name": "Area of a square",
     "answer": "s*s",
     "correct": true
+  },
+  {
+    "name": "Area of a rectangle",
+    "answer": "w*h",
+    "correct": true
   }
 ]
