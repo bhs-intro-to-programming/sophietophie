@@ -123,5 +123,10 @@
     "name": "Total surface area of a cone from slant height",
     "answer": "Math.PI",
     "correct": false
+  },
+  {
+    "name": "Total surface area of a cone from slant height",
+    "answer": "Math.PI*r*r",
+    "correct": false
   }
 ]
