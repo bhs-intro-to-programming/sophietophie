@@ -158,5 +158,10 @@
     "name": "Total surface area of a cone from height",
     "answer": "Math.PI",
     "correct": false
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "answer": "(Math.PI*r*(Math.sqrt(r*r+h*h)))+(Math.PI*(r*r))",
+    "correct": true
   }
 ]
