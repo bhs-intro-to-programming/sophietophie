@@ -43,5 +43,10 @@
     "name": "Area of a trapezoid",
     "answer": "b1+b2*1/2*h",
     "correct": false
+  },
+  {
+    "name": "Area of a trapezoid",
+    "answer": "(b1+b2)*1/2*h",
+    "correct": true
   }
 ]
