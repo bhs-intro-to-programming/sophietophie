@@ -3,5 +3,10 @@
     "name": "Perimeter of a square",
     "answer": "s*4",
     "correct": true
+  },
+  {
+    "name": "Perimeter of a rectangle",
+    "answer": "(2*w)+h",
+    "correct": false
   }
 ]
