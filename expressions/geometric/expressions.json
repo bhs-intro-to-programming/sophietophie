@@ -78,5 +78,10 @@
     "name": "The curved surface area of a cylinder",
     "answer": "Math.PI*r*h",
     "correct": false
+  },
+  {
+    "name": "The curved surface area of a cylinder",
+    "answer": "2*Math.PI",
+    "correct": false
   }
 ]
