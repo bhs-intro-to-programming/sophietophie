@@ -178,5 +178,10 @@
     "name": "Surface area of a sphere",
     "answer": "Math.PI",
     "correct": false
+  },
+  {
+    "name": "Surface area of a sphere",
+    "answer": "Math.PI*(r*r)*4",
+    "correct": true
   }
 ]
