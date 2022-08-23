@@ -53,5 +53,10 @@
     "name": "Area of a circle",
     "answer": "Math.PI*(r*r)",
     "correct": true
+  },
+  {
+    "name": "Circumference of a circle",
+    "answer": "2*Math.PI*r",
+    "correct": true
   }
 ]
