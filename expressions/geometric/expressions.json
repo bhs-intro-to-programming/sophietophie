@@ -113,5 +113,10 @@
     "name": "Volume of a Cylinder",
     "answer": "Math.PI*(r*r)*h",
     "correct": true
+  },
+  {
+    "name": "The curved surface area of a cone from slant height",
+    "answer": "Math.PI*r*s",
+    "correct": true
   }
 ]
