@@ -93,5 +93,10 @@
     "name": "Total surface area of a cylinder",
     "answer": "2*Math.PI*r+r*h",
     "correct": false
+  },
+  {
+    "name": "Total surface area of a cylinder",
+    "answer": "Math.PI*r",
+    "correct": false
   }
 ]
