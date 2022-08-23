@@ -23,5 +23,10 @@
     "name": "Area of a square",
     "answer": "s^2",
     "correct": false
+  },
+  {
+    "name": "Area of a square",
+    "answer": "s*s",
+    "correct": true
   }
 ]
