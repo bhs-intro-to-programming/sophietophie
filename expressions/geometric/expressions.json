@@ -193,5 +193,10 @@
     "name": "Midpoint of line",
     "answer": "(a+b)/2",
     "correct": true
+  },
+  {
+    "name": "Length of hypotenuse",
+    "answer": "Math.sqrt((a*a)+(b*b))",
+    "correct": true
   }
 ]
