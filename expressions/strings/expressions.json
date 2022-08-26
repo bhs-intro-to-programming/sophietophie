@@ -202,5 +202,11 @@
     "answer": "'foo'[0]",
     "correct": false,
     "timestamp": 1661552139410
+  },
+  {
+    "name": "First character",
+    "answer": "'foo'[0].length",
+    "correct": false,
+    "timestamp": 1661552148459
   }
 ]
