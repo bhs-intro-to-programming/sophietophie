@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Time to sleep?",
+    "answer": "!sleepy||!dark",
+    "correct": true,
+    "timestamp": 1661550602485
+  }
+]
