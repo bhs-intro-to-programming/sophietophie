@@ -4,5 +4,11 @@
     "answer": "!sleepy||!dark",
     "correct": true,
     "timestamp": 1661550602485
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep&&keepingUp",
+    "correct": true,
+    "timestamp": 1661550613733
   }
 ]
