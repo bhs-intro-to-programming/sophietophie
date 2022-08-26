@@ -178,5 +178,11 @@
     "answer": "'s'.length",
     "correct": false,
     "timestamp": 1661551886228
+  },
+  {
+    "name": "First character",
+    "answer": "banana.length[0]",
+    "correct": false,
+    "timestamp": 1661552097397
   }
 ]
