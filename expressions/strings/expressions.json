@@ -214,5 +214,11 @@
     "answer": "'foo'[0]",
     "correct": false,
     "timestamp": 1661552675947
+  },
+  {
+    "name": "First character",
+    "answer": "s[0]",
+    "correct": true,
+    "timestamp": 1661552762404
   }
 ]
