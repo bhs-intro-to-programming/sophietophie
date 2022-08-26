@@ -190,5 +190,11 @@
     "answer": "banana[0]",
     "correct": false,
     "timestamp": 1661552110660
+  },
+  {
+    "name": "First character",
+    "answer": "'foo'[1]",
+    "correct": false,
+    "timestamp": 1661552134426
   }
 ]
