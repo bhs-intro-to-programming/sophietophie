@@ -19,5 +19,12 @@
     "answer": "isSenior||invitedBySenior",
     "correct": true,
     "timestamp": 1662501017262
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "enoughSleep&&keepingUp",
+    "correct": true,
+    "timestamp": 1662501040574
   }
 ]
