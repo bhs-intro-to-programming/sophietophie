@@ -19,5 +19,12 @@
     "answer": "Math.abs(a+b/2)",
     "correct": false,
     "timestamp": 1662501749934
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "Math.abs/2",
+    "correct": false,
+    "timestamp": 1662501868461
   }
 ]
