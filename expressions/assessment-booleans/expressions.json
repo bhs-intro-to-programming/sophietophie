@@ -110,5 +110,12 @@
     "answer": "member&&!outSick",
     "correct": true,
     "timestamp": 1662501309494
+  },
+  {
+    "name": "Energetic?",
+    "canonical": "enoughSleep && !justWorkedOut",
+    "answer": "enoughSleep&&!justWorkedOut",
+    "correct": true,
+    "timestamp": 1662501392113
   }
 ]
