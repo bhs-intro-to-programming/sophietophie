@@ -245,5 +245,12 @@
     "answer": "s.substring(1)",
     "correct": true,
     "timestamp": 1662500810112
+  },
+  {
+    "name": "First three",
+    "canonical": "s.substring(0,3)",
+    "answer": "s.substring(123)",
+    "correct": false,
+    "timestamp": 1662500861289
   }
 ]
