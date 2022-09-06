@@ -12,5 +12,12 @@
     "answer": "done||!fun",
     "correct": true,
     "timestamp": 1662500998989
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "isSenior||invitedBySenior",
+    "correct": true,
+    "timestamp": 1662501017262
   }
 ]
