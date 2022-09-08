@@ -152,5 +152,12 @@
     "answer": "s[0].toUpperCase()+s.substring(1).toLowerCase()",
     "correct": true,
     "timestamp": 1662675581380
+  },
+  {
+    "name": "Length",
+    "canonical": "s.length",
+    "answer": "s.length()",
+    "correct": false,
+    "timestamp": 1662675642390
   }
 ]
