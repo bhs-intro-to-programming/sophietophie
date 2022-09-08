@@ -16,4 +16,4 @@
  *   - Globby Birds eat fish, mice, and nuts.
  *
  */
-isRed() isSpotted() eatsNuts()
+eatsNuts(isSpotted)
