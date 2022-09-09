@@ -201,5 +201,12 @@
     "answer": "s1+s2",
     "correct": true,
     "timestamp": 1662759961953
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.toLowerCase()",
+    "correct": true,
+    "timestamp": 1662760129901
   }
 ]
