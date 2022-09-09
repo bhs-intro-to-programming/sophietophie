@@ -173,5 +173,12 @@
     "answer": "s[0].substring()",
     "correct": true,
     "timestamp": 1662675730536
+  },
+  {
+    "name": "All but first",
+    "canonical": "s.substring(1)",
+    "answer": "s.substring()+s.substring(0)",
+    "correct": false,
+    "timestamp": 1662759763907
   }
 ]
