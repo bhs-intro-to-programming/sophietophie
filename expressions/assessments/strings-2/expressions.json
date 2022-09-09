@@ -5,5 +5,12 @@
     "answer": "s1+s2",
     "correct": true,
     "timestamp": 1662760526194
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(s.length-3)",
+    "correct": true,
+    "timestamp": 1662760541409
   }
 ]
