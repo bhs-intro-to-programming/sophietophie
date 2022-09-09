@@ -180,5 +180,12 @@
     "answer": "s.substring()+s.substring(0)",
     "correct": false,
     "timestamp": 1662759763907
+  },
+  {
+    "name": "All but first",
+    "canonical": "s.substring(1)",
+    "answer": "s.substring(0)",
+    "correct": false,
+    "timestamp": 1662759789571
   }
 ]
