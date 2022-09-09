@@ -12,5 +12,12 @@
     "answer": "s.substring(s.length-3)",
     "correct": true,
     "timestamp": 1662760541409
+  },
+  {
+    "name": "All but first",
+    "canonical": "s.substring(1)",
+    "answer": "s.substring(1)",
+    "correct": true,
+    "timestamp": 1662760684205
   }
 ]
