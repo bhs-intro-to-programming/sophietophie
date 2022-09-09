@@ -117,5 +117,12 @@
     "answer": "enoughSleep&&!justWorkedOut",
     "correct": true,
     "timestamp": 1662501392113
+  },
+  {
+    "name": "In the room where it happens?",
+    "canonical": "inTheClass || isProctor",
+    "answer": "inTheClass||isProctor",
+    "correct": true,
+    "timestamp": 1662689846903
   }
 ]
