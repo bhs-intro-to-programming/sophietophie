@@ -229,5 +229,12 @@
     "answer": "s.substring(1, end)",
     "correct": false,
     "timestamp": 1662760264297
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1, s.length-1)",
+    "correct": true,
+    "timestamp": 1662760430142
   }
 ]
