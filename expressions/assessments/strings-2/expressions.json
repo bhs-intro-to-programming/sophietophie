@@ -82,5 +82,12 @@
     "answer": "s.length()",
     "correct": false,
     "timestamp": 1662761271571
+  },
+  {
+    "name": "Length",
+    "canonical": "s.length",
+    "answer": "s.length",
+    "correct": true,
+    "timestamp": 1662761425046
   }
 ]
