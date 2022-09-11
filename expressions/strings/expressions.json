@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "Concatenate (smoosh) strings",
+    "canonical": "'foobar'",
+    "answer": "'foo'+'bar'",
+    "correct": true,
+    "timestamp": 1662868468966
+  }
+]
