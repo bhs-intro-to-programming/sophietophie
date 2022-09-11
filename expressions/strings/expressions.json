@@ -33,5 +33,12 @@
     "answer": "s.substring(1)",
     "correct": false,
     "timestamp": 1662868554859
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s[0].substring()",
+    "correct": true,
+    "timestamp": 1662868578715
   }
 ]
