@@ -17,4 +17,6 @@
  *
  */
 eatsNuts(isSpotted)
-isFlobbyBird(isRed||isSpotted)
+const isFlobbyBird = (isRed, isSpotted) => {
+  return (isRed||isSpotted);
+}
