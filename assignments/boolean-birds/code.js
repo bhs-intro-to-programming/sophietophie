@@ -17,3 +17,4 @@
  *
  */
 eatsNuts(isSpotted)
+isFlobbyBird(isRed||isSpotted)
