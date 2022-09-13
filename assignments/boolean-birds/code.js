@@ -32,6 +32,6 @@ const isGlobbyBird = (isRed, isSpotted) => {
 const eatsWorms = (isFlobbyBird, isFlibbleBird) => {
   return isFlobbyBird||isFlibbleBird;
 }
-const eatsNuts = (isFlobbyBird, isBloggyBird) => {
-  return isFlobbyBird||isBloggyBird;
+const eatsNuts = (isFlobbyBird, isBloggyBird, isGlobbyBird) => {
+  return isFlobbyBird||isBloggyBird||isGlobbyBird;
 }
