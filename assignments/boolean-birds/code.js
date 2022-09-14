@@ -42,5 +42,5 @@ const eatsMice = (isBloggyBird, isFlibbleBird) => {
   return !isBloggyBird||!isFlibbleBird;
 }
 const isRed = (isBloggyBird, isGlobbyBird) => {
-  return isBloggyBird||!isGlobbyBird;
+  return !isBloggyBird||isGlobbyBird;
 }
