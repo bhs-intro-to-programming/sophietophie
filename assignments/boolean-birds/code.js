@@ -41,6 +41,4 @@ const eatsFish = (isFlobbyBird, isFlibbleBird) => {
 const eatsMice = (isBloggyBird, isFlibbleBird) => {
   return !isBloggyBird||!isFlibbleBird;
 }
-const isRed = (bird) => {
-  return "Flobby"||"Bloggy";
-}
+const isRed = (s) => s === 'Flobby' || s === 'Bloggy';
