@@ -32,7 +32,7 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = 'sophie' => {
+const pigLatin = 's' => {
   return (ophiesay);
 }
 
