@@ -42,3 +42,4 @@ const eatsMice = (isBloggyBird, isFlibbleBird) => {
   return !isBloggyBird||!isFlibbleBird;
 }
 const isRed = (s) => s === 'Flobby' || s === 'Bloggy';
+const isSpotted = (s) => === 'Flobby'|| s === 'Flibble';
