@@ -33,6 +33,6 @@
 // operator works.
 
 const pigLatin = (s) => {
-  return s;
-}
+  return s.search(/[aeiou]/);
+  }
 
