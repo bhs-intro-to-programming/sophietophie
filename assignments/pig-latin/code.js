@@ -32,7 +32,7 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = (s) => {
-  return s.search(/[aeiou]/);
-  }
 
+  const pigLatin = (s) => {
+    return s.substring(s.search(/[aeiou]/);
+  }
