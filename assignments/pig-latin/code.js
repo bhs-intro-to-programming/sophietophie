@@ -33,10 +33,14 @@
 // operator works.
 
 
-  const pigLatin = (s) => {
-    return s.substring(s.search(/[aeiou]/))+s.substring(0, s.search(/[aeiou]/))+'ay';
+const pigLatin = (s) => {
+  return s.substring(s.search(/[aeiou]/)) + s.substring(0, s.search(/[aeiou]/)) + 'ay';
+}
+const advancedPigLatin = (s) => {
+  if (s.search(/[aeiou]/) = 0) {
+    return 's' + 'way';
+  } else {
+    return s.substring(s.search(/[aeiou]/)) + s.substring(0, s.search(/[aeiou]/)) + 'ay';
   }
-  const advancedPigLatin = (s) => {
-    if (s=aeiou) {
-    console.log(s.length-1)+'way';
-  }}
+
+}
