@@ -35,7 +35,4 @@
 const pigLatin = (s) => {
   return s.search(/[aeiou]/);
   }
-  const pigLatin = (s) => {
-    return s.search(/[aeiou]/);
-  }
 
