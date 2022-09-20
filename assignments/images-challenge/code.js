@@ -23,4 +23,6 @@
  *
  *  clear()
  */
-kljhlkjh
+const drawLineCircle = (b) => {
+  return 
+}
