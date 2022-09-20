@@ -23,6 +23,6 @@
  *
  *  clear()
  */
-const drawLineCircle = (b) => {
-  return 
+const drawLineCircle = (r) => {
+  drawFilledCircle(50, 50, 100, red)
 }
