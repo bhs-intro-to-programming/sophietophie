@@ -24,7 +24,7 @@
  *  clear()
  */
 const drawLineCircle = (r) => {
-  for (let i = 0; x < 20; x++) {
-    
+  for (let i = 0; x < i; x++) {
+    // 
   }
 }
