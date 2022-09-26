@@ -29,3 +29,5 @@ const drawLineCircle = (r) => {
 
   }
 }
+
+drawLineCircle(12)
