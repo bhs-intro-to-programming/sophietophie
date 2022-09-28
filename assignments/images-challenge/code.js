@@ -31,3 +31,10 @@ const drawLineCircle = (r) => {
 }
 
 drawLineCircle(12)
+
+const drawLineCircle = (r) => {
+  for (let e = 0; e < 10000; e++) {
+    drawFilledCircle(e*r*2, 180, r, 'red', 'blue');
+    
+  }
+}
