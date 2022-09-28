@@ -33,11 +33,14 @@ const drawLineCircle = (r) => {
 drawLineCircle(12)
 
 const drawAlternatingCircle = (r) => {
+  s= 'red'
   for (let i = 0; i < 10000; i++) {
-    drawFilledCircle(i * r * 2, 180, r, 'red');
-    i = i + 1
-    drawFilledCircle(i * r * 2, 180, r, 'blue')
-
+    drawFilledCircle(i * r * 2, 180, r, s);
+    if (s === 'blue') {
+      s === 'red'
+    } else {
+      s === 'blue'
+    }
   }
 }
 
