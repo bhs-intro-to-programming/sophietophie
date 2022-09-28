@@ -30,4 +30,4 @@ const drawLineCircle = (r) => {
   }
 }
 
-drawLineCircle(20)
+drawLineCircle(15)
