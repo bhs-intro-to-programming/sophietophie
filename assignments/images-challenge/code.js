@@ -30,7 +30,7 @@ const drawLineCircle = (r) => {
   }
 }
 
-drawLineCircle(12)
+//drawLineCircle(12)
 
 const drawAlternatingCircle = (r) => {
   s= 'red'
@@ -44,4 +44,4 @@ const drawAlternatingCircle = (r) => {
   }
 }
 
-drawLineCircle
+drawAlternatingCircle(12)
