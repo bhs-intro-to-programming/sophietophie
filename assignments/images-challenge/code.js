@@ -24,8 +24,8 @@
  *  clear()
  */
 const drawLineCircle = (r) => {
-  for (let i = 0; i < 10000; i++) {
-    drawFilledCircle(i*r*2, 180, r, 'red');
+  for (let e = 0; e < 10000; e++) {
+    drawFilledCircle(e*r*2, 180, r, 'red');
 
   }
 }
@@ -34,7 +34,9 @@ drawLineCircle(12)
 
 const drawLineCircle = (r) => {
   for (let e = 0; e < 10000; e++) {
-    drawFilledCircle(e*r*2, 180, r, 'red');
+    drawFilledCircle(e*r*2, 180, r, 'red')
 
   }
 }
+
+drawLineCircle(12)
