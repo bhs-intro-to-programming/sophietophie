@@ -44,7 +44,7 @@ const drawAlternatingCircle = (r) => {
   }
 }
 
-drawAlternatingCircle(12)
+//drawAlternatingCircle(12)
 
 const drawAlternatingConcentricCircle = (r) => {
   let g = 'red'
@@ -55,5 +55,5 @@ const drawAlternatingConcentricCircle = (r) => {
     } else {
       r = 'blue'
     }
-    }
   }
+}
