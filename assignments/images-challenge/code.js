@@ -47,14 +47,8 @@ const drawAlternatingCircle = (r) => {
 //drawAlternatingCircle(12)
 
 const drawAlternatingConcentricCircle = (r) => {
-  let c = 'red'
-  for (let g = 0; g < 10000; g++) {
-    drawFilledCircle(g * r * 2, 180, r, c);
-    if (c === 'blue') {
-      c = 'red'
-    } else {
-      c = 'blue'
-    }
+  let x = 0;
+  while (x<100) {
+    
   }
 }
-drawAlternatingConcentricCircle(20);
