@@ -45,3 +45,16 @@ const drawAlternatingCircle = (r) => {
 }
 
 drawAlternatingCircle(12)
+
+const drawAlternatingConcentricCircle = (r) => {
+  let g = 'red'
+  for (let g = 0; g < 10000; g++) {
+    drawFilledCircle(g * r * 2, 180, r, g);
+    if (g === 'blue') {
+      r = 'red'
+    } else {
+      r = 'blue'
+    }
+    }
+  }
+}
