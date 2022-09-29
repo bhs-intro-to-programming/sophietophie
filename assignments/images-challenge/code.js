@@ -57,3 +57,4 @@ const drawAlternatingConcentricCircle = (r) => {
     }
   }
 }
+drawAlternatingConcentricCircle(20);
