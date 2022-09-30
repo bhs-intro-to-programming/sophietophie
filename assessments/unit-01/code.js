@@ -19,8 +19,14 @@ const numCircles = (radius, width) => {
 }
 const offset = ()
 const canSleepIn = (isWeekday, onVacation) => {
-  true (isWeekday, onVacation);
+  true (isWeekday||onVacation);
 }
 const canGoToProm = (isSenior, isInvited, onList) => {
-  true (isSenior, isInvited, onList);
+  true (isSenior||isInvited||onList);
+}
+const getsSpeedingTicket = (65, copIsGrouchy) => {
+  true (65&&copIsGrouchy);
+}
+const morThanTwiceAsLong = (a, b) => {
+  return ()
 }
