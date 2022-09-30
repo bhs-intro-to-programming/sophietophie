@@ -21,3 +21,6 @@ const offset = ()
 const canSleepIn = (isWeekday, onVacation) => {
   true (isWeekday, onVacation);
 }
+const canGoToProm = (isSenior, isInvited, onList) => {
+  true (isSenior, isInvited, onList);
+}
