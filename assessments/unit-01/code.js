@@ -8,3 +8,16 @@ const emit = (a, b, product) => {
 const averageWeight = (a, b) => {
   return (a/b);
 }
+const hypotenuse = (a, b,) => {
+  return (a*2*2+b*2*2);
+}
+const maxRadius = (width, height) => {
+  return (width*height);
+}
+const numCircles = (radius, width) => {
+  return ()
+}
+const offset = ()
+const canSleepIn = (isWeekday, onVacation) => {
+  true (isWeekday, onVacation);
+}
