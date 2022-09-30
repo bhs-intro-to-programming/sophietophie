@@ -28,7 +28,7 @@ const getsSpeedingTicket = (65, copIsGrouchy) => {
   true (65&&copIsGrouchy);
 }
 const moreThanTwiceAsLong = (a, b) => {
-  return (moreThanTwice)
+  return (moreThanTwice);
 }
 const aFartherThanB = (a, b, c) => {
   true 
