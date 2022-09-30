@@ -5,3 +5,6 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
+const averageWeight = (a, b, c) => {
+  return(1000/20=50);
+};
