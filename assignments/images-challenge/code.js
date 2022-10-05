@@ -46,8 +46,8 @@ const drawAlternatingCircle = (r) => {
 
 //drawAlternatingCircle(12)
 
-const drawAlternatingConcentricCircle = (r) => {
-  let x = 0;
+const drawAlternatingConcentricCircle = (a, x) => {
+  let a = 0;
   while (x<100) {
     
   }
