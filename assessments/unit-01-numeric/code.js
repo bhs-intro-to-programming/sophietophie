@@ -29,4 +29,12 @@ const valueOfJewels = (emeralds, diamonds, diamondToGold, emeraldToGold) => {
 const payWithOverTime = (hours, hourlyRate, overTimeRate) => {
   return hours/(hourlyRate+overTimeRate);
 }
-const firstClassPostage
+const firstClassPostage = (weightOfLetter) => {
+  return Math.Ceil(weightOfLetter);
+}
+const weightOnJupiter = (weightOfPersonOnEarth) => {
+  return weightOfPersonOnEarth*(JUPITER_GRAVITY-EARTH_GRAVITY);
+}
+const gravity = (mass1, mass2, distanceBetweenMasses) => {
+  return (mass1*mass2)/(distanceBetweenMasses**2);
+}
