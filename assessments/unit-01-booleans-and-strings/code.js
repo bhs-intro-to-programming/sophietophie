@@ -13,3 +13,6 @@ const rand = (n) => Math.floor(Math.random() * n);
 const fireAlarm = (alarmPulled, smokeDetected, plannedDrill) => {
 return alarmPulled || smokeDetected || plannedDrill;
 }
+const canBePresident = (age, naturalBorn, lived) => {
+  return age >= 35 && naturalBorn, lived >= 14;
+}
