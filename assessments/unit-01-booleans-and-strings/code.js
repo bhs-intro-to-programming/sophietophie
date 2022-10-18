@@ -19,7 +19,9 @@ const canBePresident = (age, naturalBorn, lived) => {
 const willSeeTweet = (follow, followRetweet, blocked) => {
   return follow || followRetweet || !blocked;
 }
-
+const evenGreaterThanZero = (x) => {
+  return x>0
+}
 const isLeapYear = (year) => {
-  return even4 (!even100||even400)
+  return even4(!even100||even400)
 }
