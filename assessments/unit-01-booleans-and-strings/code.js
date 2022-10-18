@@ -16,3 +16,10 @@ return alarmPulled || smokeDetected || plannedDrill;
 const canBePresident = (age, naturalBorn, lived) => {
   return age >= 35 && naturalBorn, lived >= 14;
 }
+const willSeeTweet = (follow, followRetweet, blocked) => {
+  return follow || followRetweet || !blocked;
+}
+
+const isLeapYear = (year) => {
+  return even4 (!even100||even400)
+}
