@@ -1,5 +1,6 @@
 [
   "No",
   "Neither foo nor bar.",
-  "Just foo"
+  "Just foo",
+  "let i = 0"
 ]
