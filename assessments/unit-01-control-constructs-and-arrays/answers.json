@@ -16,5 +16,6 @@
   "undefined",
   "xs[5]",
   "300",
-  "false"
+  "false",
+  "The sum of the numbers from 0 to numbers.length."
 ]
