@@ -17,5 +17,5 @@
   "xs[5]",
   "300",
   "false",
-  "The sum of the numbers from 0 to numbers.length."
+  "The sum of the elements of the array."
 ]
