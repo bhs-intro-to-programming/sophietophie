@@ -7,3 +7,6 @@ return (a+b+c)/3;
 const product = (a, b) => {
   return (a*b);
 }
+const manhattanDistance = (x1, y1, x2, y2) => {
+  return math.abs(x1-x2)+math.abs(y1-y2);
+}
