@@ -5,3 +5,31 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
+const averageWeight = (a, b) => {
+  return (a/b);
+}
+const hypotenuse = (a, b,) => {
+  return (a*2*2+b*2*2);
+}
+const maxRadius = (width, height) => {
+  return (width*height);
+}
+const numCircles = (radius, width) => {
+  return ()
+}
+const offset = ()
+const canSleepIn = (isWeekday, onVacation) => {
+  true (isWeekday||onVacation);
+}
+const canGoToProm = (isSenior, isInvited, onList) => {
+  true (isSenior||isInvited||onList);
+}
+const getsSpeedingTicket = (65, copIsGrouchy) => {
+  true (65&&copIsGrouchy);
+}
+const moreThanTwiceAsLong = (a, b) => {
+  return (moreThanTwice);
+}
+const aFartherThanB = (a, b, c) => {
+  true 
+}
