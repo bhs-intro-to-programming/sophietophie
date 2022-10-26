@@ -31,4 +31,6 @@ const firstAndLast = (s) => {
 const swapFrontAndBack = (s) => {
   return s.substring(s.length/2) + s.substring(0, s.length/2);
 }
+const simplePigLatin = (a, b) => {
+  return s.substring(b) + s.substring(0, s.length/2);
 }
