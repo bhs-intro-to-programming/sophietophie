@@ -34,3 +34,6 @@ const swapFrontAndBack = (s) => {
 const simplePigLatin = (s, b) => {
   return s.substring(b) + s.substring(0, s.length/2) + 'ay';
 }
+const swapFrontAndBack = (s) => {
+  return s.substring(s.length/2) + s.substring(0, s.length/2);
+  }
