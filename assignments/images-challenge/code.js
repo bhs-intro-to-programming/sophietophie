@@ -23,3 +23,32 @@
  *
  *  clear()
  */
+const drawLineCircle = (r) => {
+  for (let i = 0; i < 10000; i++) {
+    drawFilledCircle(i * r * 2, 180, r, 'red');
+
+  }
+}
+
+//drawLineCircle(12)
+
+const drawAlternatingCircle = (r) => {
+  let s = 'red'
+  for (let i = 0; i < 10000; i++) {
+    drawFilledCircle(i * r * 2, 180, r, s);
+    if (s === 'blue') {
+      s = 'red'
+    } else {
+      s = 'blue'
+    }
+  }
+}
+
+//drawAlternatingCircle(12)
+
+const drawAlternatingConcentricCircle = (r) => {
+  let x = 0;
+  while (x<100) {
+    
+  }
+}
