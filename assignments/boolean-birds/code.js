@@ -16,3 +16,32 @@
  *   - Globby Birds eat fish, mice, and nuts.
  *
  */
+//eatsNuts(isSpotted)
+const isFlobbyBird = (isRed, isSpotted) => {
+  return isRed&&isSpotted;
+}
+const isBloggyBird = (isRed, isSpotted) => {
+  return isRed&&!isSpotted;
+}
+const isFlibbleBird = (isRed, isSpotted) => {
+  return !isRed&&isSpotted;
+}
+const isGlobbyBird = (isRed, isSpotted) => {
+  return !isRed&&!isSpotted;
+}
+const eatsWorms = (isFlobbyBird, isFlibbleBird) => {
+  return isFlobbyBird||isFlibbleBird;
+}
+const eatsNuts = (red, spotted) => {
+  return red||!spotted;
+}
+const eatsFish = (isFlobbyBird, isFlibbleBird) => {
+  return !isFlobbyBird||isFlibbleBird;
+}
+const eatsMice = (isBloggyBird, isFlibbleBird) => {
+  return !isBloggyBird||!isFlibbleBird;
+}
+const isRed = (s) => s === 'Flobby' || s === 'Bloggy';
+const isSpotted = (s) => s === 'Flobby'|| s === 'Flibble';
+const isNotRed = (s) => s === 'Flibble' || s === 'Globby';
+const isNotSpotted = (s) => s === 'Bloggy' || s === 'Globby';
