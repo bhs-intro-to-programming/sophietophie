@@ -4,3 +4,6 @@ const getX = (obj) => {
 const point = (num1, num2) => {
   return {x: num1, y: num2}
 }
+const emptyObject = () => {
+  []
+}
