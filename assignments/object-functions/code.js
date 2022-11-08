@@ -8,3 +8,6 @@ const emptyObject = () => {
   const obj = {}
   return obj
 }
+const distance = (p1, p2) => {
+  math.sqrt((math.abs(p1 - p2)**2) + (math.abs(p1-p2)**2)
+}
