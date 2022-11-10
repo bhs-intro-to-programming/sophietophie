@@ -27,7 +27,7 @@ return total
 const newHighScore = (currentHigh, objAr) => {
   let high = currentHigh
   for (let i = currentHigh; i < objAr.length; i++) {
-    high = high + objAr[i].score
+    high = objAr[i]
   }
   return high
 }
