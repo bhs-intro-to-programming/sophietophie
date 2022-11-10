@@ -34,6 +34,11 @@ const newHighScore = (currentHigh, objAr) => {
   return high
 }
 const summarizeBooks = (bookAr) => {
-  let title = []
-  let pages = 0
+  let titles = []
+  let page = 0
+  for (let i = 0; i < bookAr.length; i++) {
+    titles.push(bookAr[i].title)
+    page = page + bookAr[i].pages
+  }
+  return {titles: titles, pages: page}
 }
