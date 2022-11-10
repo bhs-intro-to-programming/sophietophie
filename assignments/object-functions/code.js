@@ -18,16 +18,18 @@ const midpoint = (p1, p2) => {
   }
 }
 const sumSalaries = (ar) => {
-let total = 0
-for (let i = 0; i < ar.length; i++) {
-  total = total + ar[i].salary
-}
-return total
+  let total = 0
+  for (let i = 0; i < ar.length; i++) {
+    total = total + ar[i].salary
+  }
+  return total
 }
 const newHighScore = (currentHigh, objAr) => {
   let high = currentHigh
   for (let i = 0; i < objAr.length; i++) {
-    high = objAr[i].score
+    if (objAr[i].score > high) {
+      high = objAr[i].score
+    }
   }
   return high
 }
