@@ -33,3 +33,7 @@ const newHighScore = (currentHigh, objAr) => {
   }
   return high
 }
+const summarizeBooks = (bookAr) => {
+  let title = []
+  let pages = 0
+}
