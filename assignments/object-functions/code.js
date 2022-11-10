@@ -24,3 +24,10 @@ for (let i = 0; i < ar.length; i++) {
 }
 return total
 }
+const newHighScore = (currentHigh, objAr) => {
+  let high = currentHigh
+  for (let i = currentHigh; i < objAr.length; i++) {
+    high = high
+  }
+  return high
+}
