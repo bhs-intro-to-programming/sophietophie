@@ -18,10 +18,12 @@ const totalWithTip = (bill, tipPercentage) => {
 };
 
 const isWinner = (player) => {
-  
+  if (i = 0; player.score > 100; i++)
+  else (player.score)
 };
 
 const updateWins = (players) => {
+
 };
 
 const bigWinners = (players) => {
@@ -31,6 +33,7 @@ const fillTimesTable = (table) => {
 };
 
 const sums = (n) => {
+  
 };
 
 const rule110 = (cells) => {
