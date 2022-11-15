@@ -2,13 +2,15 @@
 // should save you some time.
 
 const area = (rect) => {
-  
+  return rect.width * rect.height
 }; 
 
 const higherPaid = (e1, e2) => {
+  e1.salary > e2.salary
 };
 
 const isSamePoint = (p1, p2) => {
+  
 };
 
 const totalWithTip = (bill, tipPercentage) => {
