@@ -2,7 +2,8 @@
 // should save you some time.
 
 const area = (rect) => {
-};
+  
+}; 
 
 const higherPaid = (e1, e2) => {
 };
