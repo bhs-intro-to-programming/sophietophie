@@ -61,3 +61,6 @@ const allButFirstAndList = (s) => {
 const lastThree = (s) => {
   return s.substring(s.length -3)
 }
+const capitalize = (s) => {
+  return s.toUpperCase()
+}
