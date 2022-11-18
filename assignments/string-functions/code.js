@@ -16,3 +16,6 @@ const simplePigLatin = (s, v) => {
 const isAllUpperCase = (s) => {
   return s.toUpperCase() === s
 }
+const sameIgnoringCase = (s1, s2) => {
+  return s1 === s2
+}
