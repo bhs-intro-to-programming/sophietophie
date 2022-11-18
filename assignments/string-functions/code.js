@@ -43,3 +43,6 @@ const lastName = (s) => {
 const concatenate = (s1, s2) => {
   return s1 + s2
 }
+const firstCharacter = (s) => {
+  return s[0]
+}
