@@ -38,5 +38,8 @@ const firstName = (s) => {
   return s.substring(0, s.indexOf(' '))
 }
 const lastName = (s) => {
-  return s.substring(s.indexOf(' ')+1)
+  return s.substring(s.indexOf(' ') + 1)
+}
+const concatenate = (s1, s2) => {
+  return 's1' + 's2'
 }
