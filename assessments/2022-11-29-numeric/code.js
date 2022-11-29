@@ -16,3 +16,6 @@ const probabilityAllHeads = (numFlips) => {
 const futureHour = (currentHour, amountOfHours) => {
   return currentHour + amountOfHours;
 }
+const presentsBudget = (numFriends, averagePrice) => {
+  return numFriends * averagePrice
+}
