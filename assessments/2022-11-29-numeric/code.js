@@ -7,4 +7,9 @@ const chocolatePerPerson = (numChocolates, numPeople) => {
 const extraChocolates = (numChocolates, numPeople) => {
   return numChocolates % numPeople;
 }
-const 
+const leftOut = (numChocolates, numPeople) => {
+  return numPeople % numChocolates;
+}
+const probabilityAllHeads = (s) => {
+  return 
+}
