@@ -25,3 +25,6 @@ const perPresent = (totalBudget, numPresents) => {
 const wrapingCombos = (numPaper, numRibbons, numBows) => {
   return numPaper * numRibbons * numBows;
 }
+const biggestNumber = (s) => {
+  return Math.max(s)
+}
