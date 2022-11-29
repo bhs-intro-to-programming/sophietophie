@@ -10,6 +10,9 @@ const extraChocolates = (numChocolates, numPeople) => {
 const leftOut = (numChocolates, numPeople) => {
   return numPeople % numChocolates;
 }
-const probabilityAllHeads = (s) => {
-  return 
+const probabilityAllHeads = (numFlips) => {
+  return numFlips * 
+}
+const futureHour = (currentHour, amountOfHours) => {
+  return currentHour + amountOfHours;
 }
