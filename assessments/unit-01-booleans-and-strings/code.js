@@ -18,3 +18,6 @@ const canBePresident = (age, naturalBorn, inUs) => {
 const willSeeTweet = (follows, retweeted, blocked) => {
   return follows || retweeted && !blocked;
 }
+const evenGreaterThanZero = (s) => {
+  return s > 0 && s /2 === 0;
+}
