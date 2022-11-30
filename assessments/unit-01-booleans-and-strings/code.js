@@ -16,5 +16,5 @@ const canBePresident = (age, naturalBorn, inUs) => {
   return age >= 35 && naturalBorn && inUs >= 14
 }
 const willSeeTweet = (follows, retweeted, blocked) => {
-  return follows || retweeted || blocked
+  return follows && retweeted && blocked
 }
