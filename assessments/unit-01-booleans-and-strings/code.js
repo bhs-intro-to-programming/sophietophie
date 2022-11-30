@@ -10,5 +10,5 @@ const rand = (n) => Math.floor(Math.random() * n);
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
 const fireAlarm = (alarmPulled, smokeDetected, plannedDrill) => {
-  return alarmPulled | smokeDetected | plannedDrill;
+  return alarmPulled || smokeDetected || plannedDrill;
 }
