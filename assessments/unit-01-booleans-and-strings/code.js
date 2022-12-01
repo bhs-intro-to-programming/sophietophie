@@ -22,6 +22,6 @@ const evenGreaterThanZero = (s) => {
   return s > 0 && s /2 === 0;
 }
 const isLeapYear = (year) => {
-  return year % 4 === 0 
+  if (year % 4 === 0) {} else (year % 100 === 0)
 }
 
