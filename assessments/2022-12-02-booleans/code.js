@@ -8,5 +8,5 @@ const needMittens = (outside, warm) => {
   return outside && !warm;
 }
 const isVenomous = (striped, blueHead) => {
-  return striped || blueHead 
+  return striped || !striped || (striped && !blueHead)
 }
