@@ -33,6 +33,6 @@ const swapFrontAndBack = (s) => {
 const simplePigLatin = (s, v) => {
   return s.substring(v) + s.substring(0, v) + 'ay';
 }
-constRandomCharacter = (s) => {
+const isAllUpperCase = (s) => {
   return s.toUpperCase || !s.toUpperCase;
 }
