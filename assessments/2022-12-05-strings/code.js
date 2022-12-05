@@ -16,3 +16,6 @@ containsX = (s) => {
 const slug = (s1, s2, s3) => {
   return s1 + '-' + s2 + '-' + s3
 }
+const capitalize = (s) => {
+  return s.toUpperCase(0)
+}
