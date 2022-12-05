@@ -13,3 +13,6 @@ const pair = (s1, s2) => {
 containsX = (s) => {
   return s.substring('x') 
 }
+const slug = (s1, s2, s3) => {
+  return s1 + '-' + s2 + '-' + s3
+}
