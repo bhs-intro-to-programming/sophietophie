@@ -19,3 +19,6 @@ const slug = (s1, s2, s3) => {
 const capitalize = (s) => {
   return s.toUpperCase(0)
 }
+const capitalizeName = (s) => {
+  return s.toUpperCase(0) + s.toUpperCase(s.length/2)
+}
