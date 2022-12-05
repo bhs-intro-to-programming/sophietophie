@@ -1,5 +1,5 @@
 const upToX = (s) => {
-  return s.substring(s.length - x)
+  return s.substring(s.length - 'x')
 }
 const charactersAround = (s, index) => {
   return 
@@ -9,4 +9,7 @@ const middle = (s) => {
 }
 const pair = (s1, s2) => {
   return s1 + 'and' + s2
+}
+containsX = (s) => {
+  return s.substring('x') 
 }
