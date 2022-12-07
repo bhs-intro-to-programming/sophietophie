@@ -95,3 +95,8 @@ const timeToLeet = (i) => {
     random10k() % isLeet;
   }
 }
+const sumOfSquares = (n) => {
+  if (int % 2 && int < n) {
+    int ** 2;
+  }
+}
