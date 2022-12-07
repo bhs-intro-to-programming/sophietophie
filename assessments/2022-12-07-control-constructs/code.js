@@ -100,3 +100,6 @@ const sumOfSquares = (n) => {
     int ** 2;
   }
 }
+const pairs = (n) {
+  
+}
