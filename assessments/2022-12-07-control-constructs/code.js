@@ -90,3 +90,8 @@ const firstOk = (n) => {
     return undefined;
   }
 }
+const timeToLeet = (i) => {
+  for (let i = 0; i < 10000; i++) {
+    random10k() % isLeet;
+  }
+}
