@@ -78,3 +78,15 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+const logIfOk = (s) => {
+  if (s == isOk) {
+    log(s);
+  }
+}
+const firstOk = (n) => {
+  if (int >= 0 && < n) {
+    isOk
+  } else {
+    return undefined;
+  }
+}
