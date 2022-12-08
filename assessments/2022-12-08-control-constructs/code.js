@@ -8,3 +8,12 @@ const yesIfEven = (s) => {
 const countXs = (s) => {
   return s.substring('x')
 }
+const timesTable = (n) => {
+
+}
+const containsX = (s) => {
+  return s.substring('x')
+}
+const sumSquares = (n) => {
+  return int **2 < n
+}
