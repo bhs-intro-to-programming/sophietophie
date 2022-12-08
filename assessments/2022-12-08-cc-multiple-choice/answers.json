@@ -8,5 +8,6 @@
   "20",
   "6",
   "The sum of the numbers from 0 to 9",
-  "Immediately, the loop body never executes"
+  "Immediately, the loop body never executes",
+  "It tests whether there are at most max prime numbers below limit."
 ]
