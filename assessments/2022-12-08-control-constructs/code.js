@@ -5,3 +5,6 @@ const yesIfEven = (s) => {
     return 'no'
   }
 }
+const countXs = (s) => {
+  return s.substring('x')
+}
