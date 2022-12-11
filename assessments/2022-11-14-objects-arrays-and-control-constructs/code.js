@@ -23,7 +23,7 @@ const totalWithTip = (bill, percentageTip) => {
   }
 }
 const isWinner = (obj) => {
-  return obj.score > 100;
+  return obj.score > 5;
 };
 const updateWins = (objects) => {
   for (let i = 0; i < objects.length; i++) {
