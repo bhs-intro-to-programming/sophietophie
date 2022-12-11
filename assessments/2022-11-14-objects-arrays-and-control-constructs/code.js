@@ -31,4 +31,5 @@ const updateWins = (objects) => {
       objects[i].wins++;
     }
   }
+  return objects;
 };
