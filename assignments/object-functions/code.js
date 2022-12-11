@@ -1,3 +1,3 @@
 const getX = (obj) => {
-  obj.x;
+  return obj.x;
 };
