@@ -25,3 +25,7 @@ const totalWithTip = (bill, percentageTip) => {
 const isWinner = (obj) => {
   return obj.score > 100;
 };
+const updateWins = ([{score: 5, wins: 2},{score: 7, wins: 5}, {score: 3, wins: 4}]) => {
+
+}
+const updateWins = (objects) => {
