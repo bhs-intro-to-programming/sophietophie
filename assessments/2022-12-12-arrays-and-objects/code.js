@@ -17,3 +17,4 @@ const allTheSame = (elements) => {
       return false
     };
   };
+};
