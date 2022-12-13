@@ -78,3 +78,28 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+const logIfOk = (s) => {
+  if (s == isOk) {
+    log(s);
+  }
+}
+const firstOk = (n) => {
+  if (int >= 0 && int < n) {
+    isOk
+  } else {
+    return undefined;
+  }
+}
+const timeToLeet = (i) => {
+  for (let i = 0; i < 10000; i++) {
+    random10k() % isLeet;
+  }
+}
+const sumOfSquares = (n) => {
+  if (int % 2 && int < n) {
+    int ** 2;
+  }
+}
+const pairs = (n) {
+  
+}
