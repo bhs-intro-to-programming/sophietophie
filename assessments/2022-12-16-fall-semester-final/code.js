@@ -96,8 +96,33 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
-const totalEggs
-
+const totalEggs = (hard, soft) => {
+  return hard + soft;
+};
+const chocolatesPerPerson = (numC, numP) => {
+  return numC / numP;
+};
+const extraChocolates = (numC, numP) => {
+  return numC % numP;
+};
+const leftOut = (chocolates, people) => {
+  Math.floor(chocolates / people);
+};
+const futureHour = (current, hours) => {
+  return current + hours;
+};
+const presentsBudget = (friends, price) => {
+  return friends * price;
+};
+const perPresent = (budget, presents) => {
+  return budget / presents;
+};
+const wrapingCombos = (paper, ribbons, bows) => {
+  return paper + ribbons + bows;
+};
+const biggestNumber = (digits) => {
+  return Math.floor(digits);  
+};
 const itemsLeftOver = (numP, numI) => {
   return numI % numP;
 };
@@ -116,9 +141,6 @@ const earnedRunAverage = (earnedRuns, innings) => {
 const valueOfJewels = (diamonds, emeralds, valueD, valueE) => {
   return (diamonds * valueD) + (emeralds * valueE);
 };
-const payWithOverTime = (hours, hourlyRate, overTimeRate) => {
-  
-}
 const firstClassPostage = (ounces) => {
   return Math.ceil()
 }
@@ -128,3 +150,110 @@ const weightOnJupiter = (weight) => {
 const gravity = (mass1, mass2, distance) => {
   return ((mass1 * mass2) / distance ** 2) * G;
 };
+const averageWeight = (weight, items) => {
+  return weight / items;
+};
+const hypotenuse = (length1, length2) => {
+  return (length1 ** 2) + (length2 ** 2);
+};
+const maxRadius = (width, height) => {
+  return width * height;
+};
+const numCircles = (radius, width) => {
+  return Math.max(radius * width);
+};
+const fireAlarm = (alarm, smoke, drill) => {
+  return alarm || smoke || drill;
+};
+const canBePresident = (age, naturalBorn, yearsInUS) => {
+  return age >= 37 && naturalBorn && yearsInUS >= 14;
+};
+const willSeeTweet = (follow, retweet, blocked) => {
+  return follow || retweet && !blocked;
+};
+const needHeavyCoat = (outside, cold) => {
+  return outside && cold;
+};
+const needSunscreen = (beach, skiing) => {
+  return beach && skiing;
+};
+const needMittens = (outside, warm) => {
+  return outside && !warm;
+};
+const isVenomous = (striped, blue) => {
+  return striped || !blue;
+};
+const isMagicNumber = (number) => {
+  return number[42] || number[17];
+};
+const canSleepIn = (weekday, vacation) => {
+  return !weekday || vacation;
+};
+const canGoToProm = (senior, invited, excluded) => {
+  return senior || invited && !excluded;
+};
+const getsSpeedingTicket = (mph, grouchyCop) => {
+  return (mph > 70 && !grouchyCop) || (mph > 65 && grouchyCop);
+};
+const evenGreaterThanZero = (num) => {
+  return num / 2 === 0 && num > 0;
+};
+const isLeapYear = (year) => {
+  return year / 4 === 0 || (year / 100 === 0 && year / 400 === 0);
+};
+const okaySpeed = (postedMph, carMph) => {
+  return carMph >= postedMph + 10 || carMph <= postedMph - 10;
+};
+const twiceAsExpensive = (item1, item2) => {
+  return item1 > (item2 * 2);
+};
+const winningRecord = (wins, losses, ties) => {
+  return wins > losses + ties;
+};
+const aFartherThanB = (num1, num2, num3) => {
+  return num3 - num1 > num3 - num2;
+};
+const firstFewEveryOther = (s) => {
+  return s.substring(0, 2, 4);
+};
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2);
+};
+const secondHalf = (s) => {
+  return s.substring(s.length / 2);
+};
+const swapFrontAndBack = (s) => {
+  return s.substring(s.length / 2) + s.substring(0, s.length / 2);
+};
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase();
+};
+const upDownLastCharacter = (s) => {
+  return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase;
+};
+const firstAndLast = (s) => {
+  return s[0] + s[s.length - 1];
+};
+const randomCharacter = (s) => {
+  return rand(s);
+};
+const randomCharacterUpDown = (s) => {
+  return rand(s).toUpperCase + rand(s).toLowerCase;
+};
+const isAllUpperCase = (s) => {
+  return s.toUpperCase;
+};
+const sameIgnoringCase = (s1, s2) => {
+  return s1 === s2;
+};
+const firstName = (s) => {
+  return s.indexOf(0, ' ' - 1);
+};
+const lastName = (s) => {
+  return s.indexOf(' ' + 1);
+};
+const initials = (s) => {
+  return s[0] + s[' ' + 1];
+};
+
+
