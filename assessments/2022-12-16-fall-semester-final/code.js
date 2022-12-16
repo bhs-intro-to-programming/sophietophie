@@ -97,3 +97,34 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 const totalEggs
+
+const itemsLeftOver = (numP, numI) => {
+  return numI % numP;
+};
+const areaOfCircle = (radius) => {
+  return Math.PI * radius ** 2;
+};
+const volumeOfCube = (length) => {
+  return length ** 3;
+};
+const populationGrowthRate = (population, growth) => {
+  return population * growth;
+};
+const earnedRunAverage = (earnedRuns, innings) => {
+  return (earnedRuns / innings) * 9;
+};
+const valueOfJewels = (diamonds, emeralds, valueD, valueE) => {
+  return (diamonds * valueD) + (emeralds * valueE);
+};
+const payWithOverTime = (hours, hourlyRate, overTimeRate) => {
+  
+}
+const firstClassPostage = (ounces) => {
+  return Math.ceil()
+}
+const weightOnJupiter = (weight) => {
+  return weight * (JUPITER_GRAVITY / EARTH_GRAVITY);
+};
+const gravity = (mass1, mass2, distance) => {
+  return ((mass1 * mass2) / distance ** 2) * G;
+};
