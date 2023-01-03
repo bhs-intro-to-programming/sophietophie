@@ -1,31 +1,30 @@
-
-const add = (n1, n2) => {
-  return n1 + n2;
+const add = (num1, num2) => {
+  return (num1+num2);
 }
-const subtract = (n1, n2) => {
-  return n1 - n2;
+const subtract = (num1, num2) => {
+  return (num1-num2);
 }
-const multiply = (n1, n2) => {
-  return n1 * n2;
+const multiply = (num1, num2) => {
+  return (num1*num2);
 }
-const divide = (n1, n2) => {
-  return n1 / n2;
+const divide = (num1, num2) => {
+  return (num1/num2);
 }
-const mod = (n1, n2) => {
-  return n1 % n2;
+const mod = (num1, num2) => {
+  return (num1%num2)
 }
-const averageOfTwo = (n1, n2) => {
-  return (n1 + n2) / 2;
+const averageOfTwo = (num1, num2) => {
+  return (num1+num2)/2;
 }
-const averageOfThree = (n1, n2, n3) => {
-  return (n1 + n2 + n3) / 3;
+const averageOfThree = (num1, num2, num3) => {
+  return (num1+num2+num3)/3;
 }
-const distance = (n1, n2) => {
-  return Math.abs(n1 - n2);
+const distance = (num1, num2) => {
+  return Math.abs(num1-num2);
 }
-const manhattanDistance = (x1, y1, x2, y2) => {
-  return Math.abs(x1 - x2) + Math.abs(y1 - y2);
+const manhattanDistance = (x1, x2, y1, y2) => {
+  return Math.abs(x1-y1)+ Math.abs(x2-y2);
 }
 const euclideanDistance = (x1, y1, x2, y2) => {
-  return Math.sqrt(Math.abs(x1 - x2) ** 2 + Math.abs(y1 - y2) ** 2);
+  return Math.sqrt((x1-x2)**2 + Math.abs((y1-y2)**2));
 }
